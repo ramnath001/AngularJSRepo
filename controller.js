@@ -4,14 +4,17 @@ app.controller('LoginCtrl', function($scope, $http) {
 	$scope.login = function(){
 		
 		console.log($scope.credentials);
-	}
-	/*
-    $http.get("http://localhost:8080/jenkins_jobs")
+		
+		 $http.get("http://codeanalysis.corp.equinix.com/api/resources?metrics=ncloc&format=json")
     .success(function(response) {
 	
+	console.log("wjhdiwjh");
+	$scope.data = response;
+	console.log($scope.data);
 	
-	$scope.names = response.job.data.builds;
-	console.log($scope.names);
-	*/
 	
 	});
+	};
+	
+   
+});
