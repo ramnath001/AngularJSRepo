@@ -9,6 +9,7 @@ app.controller('LoginCtrl', function($scope, $http) {
     .success(function(response) {
 	
 	console.log("wjhdiwjh");
+	console.log("in github");
 	$scope.data = response;
 	console.log($scope.data);
 	
