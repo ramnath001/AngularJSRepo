@@ -1,6 +1,7 @@
 var app = angular.module('myApp', []);
 app.controller('LoginCtrl', function($scope, $http) {
 	
+	/* added api call */
 	$scope.login = function(){
 		
 		console.log($scope.credentials);
