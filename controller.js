@@ -1,5 +1,5 @@
 var app = angular.module('myApp', []);
-/*controller module added */
+/*controller module added*/
 app.controller('LoginCtrl', function($scope, $http) {
 	
 	/* added api call */
